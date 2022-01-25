@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 0 20px;
+  background-color: rgba(230, 154, 42, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links li a {
+  color: black;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.links li a:hover {
+  color: white;
+  background-color: black;
+}
+
+.container1 {
+  height: 90vh;
+  width: 100%;
+  background-image: url('./images/1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.contain {
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contain h1 {
+  font-size: 40px;
+}
+.contain h4 {
+  word-spacing: 6px;
+}
+
+.container2 {
+  min-height: 90vh;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.container2 h1 {
+  border-bottom: 3px solid black;
+  width: fit-content;
+  padding: 8px 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.contain2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards {
+  height: 320px;
+  width: 250px;
+  border: 2px solid black;
+  margin: 0 auto;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  margin-top: 10px;
+}
+
+.cards img {
+  width: 80%;
+  padding: 8px;
+  margin: 5px auto;
+}
+.cards h3 {
+  margin: 5px 0;
+}
+.btn {
+  margin: 5px 0;
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px black solid;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 8vh;
+  margin-top: 30px;
+  word-spacing: 8px;
+}
